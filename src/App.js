@@ -76,6 +76,7 @@ class App extends Component {
 
     render() {
         //获取到最新的tab和
+        //测试、、、、、
         const {ranking, tab} = this.state;
         const rankingArr = new Array();
         for (let item in ranking) {
