@@ -1,0 +1,138 @@
+.App {
+    background-color: #f9f9f9;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.top {
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 3px;
+    line-height: 31px;
+    background-size: 33px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5px;
+}
+
+.top1 {
+    background-image: url("./image/no1.png");
+
+}
+
+.top2 {
+    background-image: url("./image/no2.png");
+}
+
+.top3 {
+    background-image: url("./image/no3.png");
+}
+
+.top-normal {
+    background-image: url("./image/no4.png");
+
+}
+a img {
+    border: 0;
+    border-radius: 5px;
+    border: 1px solid #f6f6f6;
+}
+.weui-navbar {
+    background: white;
+    color: #616161;
+    position: fixed;
+}
+.weui-navbar__item {
+    font-size: 14px;
+    font-weight: normal;
+}
+.weui-media-box_appmsg .weui-media-box__hd {
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    margin-left: -8px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.weui-media-box__title {
+    color: #414141;
+    font-size: 16px;
+}
+
+.weui-media-box__desc {
+    font-size: 14px;
+}
+
+.weui-media-box_appmsg {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.weui-article {
+    margin-top: -10px;
+}
+
+.weui-panel {
+    background-color: #FFFFFF;
+    margin-top: 7px;
+    position: static;
+    overflow: hidden;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+.weui-article {
+    padding: 15px;
+    font-size: 15px;
+}
+
+/*.weui-panel:first-child {
+    margin-top: -7px;
+}*/
+.myCurrentRank {
+    color: #525252;
+    text-indent: 0.8em;
+    padding-top: 10px;
+}
+
+.currentRank {
+    margin-top: -10px;
+}
+
+.weui-navbar__item:after{
+    border-right:0px solid gray;
+}
+.weui-navbar__item.weui-bar__item_on {
+    background-color: white;
+    color: #2aaae2;
+    border-bottom: 2px solid #2aaae2;
+}
